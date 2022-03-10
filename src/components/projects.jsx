@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <section id="projects">
+        <section id="projects" className="bg-white h-screen">
             <h2>projects</h2>
         </section>
     );

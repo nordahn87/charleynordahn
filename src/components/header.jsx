@@ -1,7 +1,10 @@
 const Header = () => {
     return (
-        <header>
-            <h1><a href="/">Charley Nordahn</a></h1>
+        <header className="h-screen">
+            <section className="grid grid-cols-2">
+                <div className="bg-blue h-screen"></div>
+                <div className="bg-orange h-screen"></div>
+            </section>
         </header>
     );
 }
