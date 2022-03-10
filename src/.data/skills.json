@@ -1,0 +1,32 @@
+[
+    {
+        "icon" : "",
+        "listItem" : [
+            "React",
+            "Javascript",
+            "HTML & CSS",
+            "Sass",
+            "Typescript",
+            "Bootstrap",
+            "React-bootstrap",
+            "Tailwind"
+        ]
+    },
+    {
+        "icon": "",
+        "listItem": [
+            "Photoshop",
+            "Illustrator",
+            "Indesign",
+            "Animate"
+        ]
+    },
+    {
+        "icon": "",
+        "listItem": [
+            "GIT",
+            "Github",
+            "Jira"
+        ]
+    }
+]
