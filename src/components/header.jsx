@@ -1,9 +1,9 @@
 const Header = () => {
-    return ( 
+    return (
         <header>
-            <h1>Charley Nordahn</h1>
+            <h1><a href="/">Charley Nordahn</a></h1>
         </header>
-     );
+    );
 }
 
 export default Header;
