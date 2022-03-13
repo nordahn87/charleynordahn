@@ -7,8 +7,7 @@ module.exports = {
                 blue: '#00a0a5',
             },
             fontFamily: {
-                worksans: ['Work Sans', 'san-serif'],
-                sansita: ['Sansita Swashed', 'san-serif'],
+                worksans:   ['Work Sans', 'san-serif'],
             },
         },
     },
