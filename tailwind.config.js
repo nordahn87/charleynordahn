@@ -7,9 +7,12 @@ module.exports = {
                 blue: '#00a0a5',
             },
             fontFamily: {
-                worksans:   ['Work Sans', 'san-serif'],
+                worksans: ['Work Sans', 'san-serif'],
+            },
+            screens: {
+                xs: '420px',
             },
         },
+        plugins: [],
     },
-    plugins: [],
 }
