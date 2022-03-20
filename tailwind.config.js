@@ -8,9 +8,10 @@ module.exports = {
             },
             fontFamily: {
                 worksans: ['Work Sans', 'san-serif'],
+                jost: ['Jost', 'san-serif'],
             },
             screens: {
-                xs: '420px',
+                xs: '420px'
             },
         },
         plugins: [],

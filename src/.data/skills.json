@@ -1,7 +1,7 @@
 [
     {
-        "icon" : "",
-        "listItem" : [
+        "icon": "las la-code",
+        "listItem": [
             "React",
             "Javascript",
             "HTML & CSS",
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "icon": "",
+        "icon": "lab la-adobe",
         "listItem": [
             "Photoshop",
             "Illustrator",
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "icon": "",
+        "icon": "las la-terminal",
         "listItem": [
             "GIT",
             "Github",

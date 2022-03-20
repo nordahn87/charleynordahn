@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* 
-.clip-polygon {
-    clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 100%, 0 85%);
-} */
 
-.arrow-shape {
-    width: 220px;
-}
-
-.pis {
+.profile-img {
     width: 180px;
     background-color: #00a0a5;
+}
+
+
+
+.nisse {
+    background-color: #00a0a5;
+    padding: 20px 20px 80px 20px;
+    font-size: 1.4rem;
+    width: 260px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 92%, 50% 100%, 0 92%);
+
 }
