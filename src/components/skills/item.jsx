@@ -2,13 +2,13 @@
 const SkillItem = (props) => {
     return (
         <>
-            <section className='flex flex-col items-center mx-4 nisse'>
-                <div className="my-4 text-white">
-                    <i class={(props.icon) + ' la-2x'}></i>
+            <section className="flex flex-col items-center nisse">
+                <div className="my-4 text-black">
+                    <i className={(props.icon) + ' text-6xl'}></i>
                 </div>
                 {props.listItem.map((currentItem, index) => {
                     return (
-                        <div className='flex items-center text-white' key={index}>
+                        <div className="flex items-center text-black" key={index}>
                             <p>{currentItem}</p>
                         </div>
                     )
