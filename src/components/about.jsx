@@ -4,7 +4,7 @@ import FollowMe from './follow-me'
 const About = () => {
     return (
         <>
-            <section id="about" className="flex flex-col items-center pb-24 pt-24 sm:pt-48 relative">
+            <section id="om-mig" className="flex flex-col items-center pb-24 pt-24 sm:pt-48 relative">
                 <div className="absolute top-[10px]">
                     <Arrow fill="#f37421" />
                 </div>
@@ -15,12 +15,15 @@ const About = () => {
                         </h1>
                         <div className="grid sm:grid-cols-4 gap-6">
                             <div className="grid place-content-center md:place-content-start">
-                                <img src="/img/profile.png" alt="Profil billede" className="profile-img" />
+                                <img src="/assets/profile.png" alt="Profil billede" className="profile-img" />
                             </div>
                             <p className="font-regular text-base grid sm:col-span-3 content-center">
-                                Kvalitets bevidst webudvikler med flair for design. Stor faglig stolthed og erfaring indenfor webudvikling.
-                                Klar på at tilegne mig ny viden og møder nye opgaver med engagement og nysgerrighed. Åben og udadvendt teamplayer,
-                                der bidrager socialt med en ligefrem og imødekommende humor.
+                                En kvalitetsbevidst webudvikler med stor faglig stolthed og erfaring indenfor UI/grafisk
+                                design og webudvikling.Da udvikling indenfor teknologi går hurtigt er jeg
+                                bevidst om hvor vigtigt det er at være åben over for ny læring.En udadvendt teamplayer,
+                                der ofte bidrager socialt med en ligefrem og imødekommende humør. Fremtidige mål er
+                                at blive en mere rutineret frontend udvikler og dermed skabe merværdi for mig selv og
+                                virksomheden.
                             </p>
                         </div>
                     </section>

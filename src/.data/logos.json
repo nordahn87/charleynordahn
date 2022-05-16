@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "src": "/assets/hoeyerfit-dark.svg",
+        "alt": "Logo Høyerfitt"
+    },
+    {
+        "id": 2,
+        "src": "/assets/roadbro.svg",
+        "alt": "Logo Roadbro"
+    },
+    {
+        "id": 3,
+        "src": "/assets/vinderup-landogby-dark.svg",
+        "alt": "Logo Vinderup land og by"
+    }
+]

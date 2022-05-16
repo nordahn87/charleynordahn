@@ -5,14 +5,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 .profile-img {
     width: 180px;
     background-color: #00a0a5;
 }
 
-.kat {
+.max-width-wrapper {
     max-width: 1366px;
+    width: 100%;
+}
+
+.max-width-mobile {
+    max-width: 400px;
     width: 100%;
 }
 
@@ -35,5 +43,4 @@
     height: 100%;
     padding-top: 100px;
     clip-path: polygon(50% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
-
 }

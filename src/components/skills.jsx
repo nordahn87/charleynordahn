@@ -5,7 +5,7 @@ import SkillItemData from '../.data/skills.json'
 const Skills = () => {
     return (
         <>
-            <section id="skills" className="flex flex-col items-center w-full pb-24 pt-24 sm:pt-48 relative bg-orange">
+            <section id="faerdigheder" className="flex flex-col items-center w-full pb-24 pt-24 sm:pt-48 relative bg-orange">
                 <div className="absolute top-[10px]">
                     <Arrow fill="white" />
                 </div>
