@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Webudvikler",
+        "link": "webudvikler"
+    },
+    {
+        "id": 2,
+        "name": "Færdigheder",
+        "link": "faerdigheder"
+    },
+    {
+        "id": 3,
+        "name": "Projekter",
+        "link": "projekter"
+    },
+    {
+        "id": 4,
+        "name": "Kontakt",
+        "link": "kontakt"
+    }
+]

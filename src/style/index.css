@@ -5,19 +5,46 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 .profile-img {
     width: 180px;
     background-color: #00a0a5;
 }
 
+.max-width-wrapper {
+    max-width: 1366px;
+    width: 100%;
+}
+
+.max-width-mobile {
+    max-width: 400px;
+    width: 100%;
+}
 
 
-.nisse {
-    background-color: #00a0a5;
+.point-shape-down {
+    background-color: white;
     padding: 20px 20px 80px 20px;
     font-size: 1.4rem;
-    width: 260px;
+    height: 480px;
     clip-path: polygon(0% 0%, 100% 0, 100% 92%, 50% 100%, 0 92%);
 
+}
+
+.point-shape-up{
+    background-color: white;
+    padding: 20px 20px 80px 20px;
+    font-size: 1.4rem;
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    clip-path: polygon(50% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+}
+
+.homepage-item:hover .homepage-item-hover {
+    filter: brightness(50%);
 }

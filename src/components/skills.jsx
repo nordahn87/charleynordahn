@@ -5,26 +5,26 @@ import SkillItemData from '../.data/skills.json'
 const Skills = () => {
     return (
         <>
-            <section id="about" className="h-screen flex flex-col items-center pt-4 relative">
-                <Arrow fill="#f37421" className="w-[180px] sm:w-[280px]" />
-                <section className="h-full max-w-5xl w-full flex flex-col items-center justify-center px-6">
-                    <section className="w-full max-w-3xl flex flex-col items-center">
-                        <h2 className="font-extrabold text-4xl md:text-left sm:text-5xl md:text-6xl lg:text-7xl mb-6 uppercase tracking-wide font-jost">
-                            Færdigheder
-                        </h2>
-                        <div className="flex">
-                            {SkillItemData.map((item, index) => {
-                                return (
-                                    <SkillItem 
-                                        key={index}
-                                        icon={item.icon}
-                                        listItem={item.listItem}
-                                    />
-                                )
-                            })}
-    
-                        </div>
-                    </section>
+            <section id="faerdigheder" className="flex flex-col items-center w-full pb-24 pt-24 sm:pt-48 relative bg-orange">
+                <div className="absolute top-[10px]">
+                    <Arrow fill="white" />
+                </div>
+                <section className="h-full max-w-5xl w-full flex flex-col items-center justify-center">
+                    <h2 className="font-extrabold md:text-left text-4xl sm:text-7xl text-black uppercase my-8 tracking-wide font-jost">
+                        Færdigheder
+                    </h2>
+                    <div className="grid px-6 sm:px-4 lg:px-0 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+                        {SkillItemData.map((item) => {
+                            return (
+                                <SkillItem
+                                    key={item.id}
+                                    icon={item.icon}
+                                    listItem={item.listItem}
+                                />
+                            )
+                        })}
+
+                    </div>
                 </section>
             </section>
         </>

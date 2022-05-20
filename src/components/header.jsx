@@ -2,7 +2,7 @@ import Rhombus from '../svg/rhombus'
 
 const Header = () => {
     return (
-        <header className="h-screen">
+        <header id="#" className="h-screen">
             <section className="h-full w-full flex justify-center items-center absolute">
                 <Rhombus className="h-[97vh] mx-2"/>
             </section>

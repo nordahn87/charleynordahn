@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "link": "http://roadbro.charleynordahn.dk/",
+        "src": "assets/roadbroscreenshot.jpg",
+        "alt": "Screenshot af roadbro.dk",
+        "title": "Roadbro 2020",
+        "tool": "HTML, CSS og JS",
+        "description": "Skoleopgave som bestod i at udvikle et fysisk produkt som indebar design af mærkat. Vi skulle selv tage billeder og dertil lave en hjemmeside til produkt."
+    },
+    {
+        "id": 2,
+        "link": "http://vinderuplandogby.charleynordahn.dk/",
+        "src": "assets/vinderupscreenshot.jpg",
+        "alt": "Screenshot af vinderuplandogny.dk",
+        "title": "Vinderup - Land & by 2021",
+        "tool": "React og Tailwind",
+        "description": "Skoleopgave som bestod i at tage billeder, redigere dem i Adobe Camera Raw og dertil lave en foto portfolio hjemmeside."
+    }
+]
