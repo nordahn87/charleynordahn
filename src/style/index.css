@@ -25,7 +25,7 @@ html {
 }
 
 
-.nisse {
+.point-shape-down {
     background-color: white;
     padding: 20px 20px 80px 20px;
     font-size: 1.4rem;
@@ -34,7 +34,7 @@ html {
 
 }
 
-.nisse2 {
+.point-shape-up{
     background-color: white;
     padding: 20px 20px 80px 20px;
     font-size: 1.4rem;
@@ -43,4 +43,8 @@ html {
     height: 100%;
     padding-top: 100px;
     clip-path: polygon(50% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+}
+
+.homepage-item:hover .homepage-item-hover {
+    filter: brightness(50%);
 }

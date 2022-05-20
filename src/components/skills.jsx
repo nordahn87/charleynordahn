@@ -10,7 +10,7 @@ const Skills = () => {
                     <Arrow fill="white" />
                 </div>
                 <section className="h-full max-w-5xl w-full flex flex-col items-center justify-center">
-                    <h2 className="font-extrabold text-3xl md:text-left sm:text-5xl md:text-6xl lg:text-7xl text-black uppercase my-8 tracking-wide font-jost">
+                    <h2 className="font-extrabold md:text-left text-4xl sm:text-7xl text-black uppercase my-8 tracking-wide font-jost">
                         Færdigheder
                     </h2>
                     <div className="grid px-6 sm:px-4 lg:px-0 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">

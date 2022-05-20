@@ -3,7 +3,7 @@ import FollowMe from './follow-me'
 const Contact = () => {
     return (
         <section id="kontakt" className="bg-blue flex justify-center items-end pt-16 px-6">
-            <div className="nisse2 flex  justify-center">
+            <div className="point-shape-up flex  justify-center">
                 <div className="pt-16 p-4">
                     <h3 className="font-bold text-2xl mb-2">Kontakt</h3>
                     <ul className="mb-8">

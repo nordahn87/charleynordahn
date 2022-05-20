@@ -2,7 +2,7 @@
 const SkillItem = (props) => {
     return (
         <>
-            <section className="flex flex-col items-center nisse">
+            <section className="flex flex-col items-center point-shape-down">
                 <div className="my-4 text-black">
                     <i className={(props.icon) + ' text-6xl'}></i>
                 </div>
