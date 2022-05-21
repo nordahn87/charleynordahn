@@ -24,14 +24,12 @@ html {
     width: 100%;
 }
 
-
 .point-shape-down {
     background-color: white;
     padding: 20px 20px 80px 20px;
     font-size: 1.4rem;
     height: 480px;
     clip-path: polygon(0% 0%, 100% 0, 100% 92%, 50% 100%, 0 92%);
-
 }
 
 .point-shape-up{
@@ -47,4 +45,8 @@ html {
 
 .homepage-item:hover .homepage-item-hover {
     filter: brightness(50%);
+}
+
+.kat {
+    transition: all 0.2s ease-in-out;
 }

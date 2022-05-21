@@ -18,8 +18,9 @@ const About = () => {
                                 <img src="/assets/profile.png" alt="Profil billede" className="profile-img" />
                             </div>
                             <p className="font-regular text-base grid sm:col-span-3 content-center">
-                                Ung mand på 35 år med begge ben forankret i den jyske muld derudover er jeg en Kvalitetsbevidst webudvikler med flair for design og stor faglig stolthed. 
-                                Da udvikling indenfor teknologi går hurtigt er jeg bevidst om hvor vigtigt det er at være åben over for ny læring. 
+                                Ung mand på 35 år med begge ben forankret i den jyske muld, derudover er jeg en kvalitetsbevidst webudvikler med flair
+                                for design og stor faglig stolthed.Da udvikling indenfor teknologi går hurtigt, er jeg bevidst om hvor vigtigt det er
+                                at være åben over for ny læring.
                             </p>
                         </div>
                     </section>

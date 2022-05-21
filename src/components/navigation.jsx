@@ -1,25 +1,37 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import FollowMe from './follow-me'
 import NavigationItem from './navigation/item';
 import NavData from '../.data/navigation.json'
 
 const Navigation = () => {
     const [toggleMobileNavMenu, setToggleMobileNavMenu] = useState(false)
+    const [burger, setBurger] = useState(false)
 
     const closeOpen = () => {
         setToggleMobileNavMenu(!toggleMobileNavMenu)
     }
 
     const mobileNavClose = () => {
-        if (window.innerWidth < 400) {
+        if (window.innerWidth < 640) {
             setToggleMobileNavMenu(false)
         }
     }
 
+    useEffect(() => {
+        const changeBurger = () => {
+            if (window.scrollY >= 80) {
+                setBurger(true)
+            } else {
+                setBurger(false)
+            }
+        }
+        window.addEventListener('scroll', changeBurger)
+    });
+
     return (
         <nav className='fixed top-0 right-0 z-50'>
             <button
-                className="bg-black justify-center items-center p-4 bg-black z-10 top-0 right-0"
+                className={(burger ? 'bg-black' : '') + ' p-4 z-10 top-0 right-0 transition-all'}
                 onClick={closeOpen}>
                 <i className={(toggleMobileNavMenu ? 'la-times' : 'la-bars') + ' las text-4xl text-white'}></i>
             </button>
@@ -37,7 +49,7 @@ const Navigation = () => {
                         )
                     })}
                 </div>
-                <FollowMe  />
+                <FollowMe />
             </div>
 
         </nav>
