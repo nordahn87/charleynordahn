@@ -39,7 +39,7 @@ const Projects = () => {
                 <h3 className="font-bold text-3xl md:text-left text-2xl sm:text-4xl text-black uppercase my-8 tracking-wide font-jost">
                     Logoer
                 </h3>
-                <div className="grid md:grid-cols-3 gap-16 w-full">
+                <div className="grid  lg:grid-cols-3 gap-16 sm:gap-24 lg:gap-10 w-[90%] lg:w-full">
                     {LogosData.map((item) => {
                         return (
                             <LogoItem

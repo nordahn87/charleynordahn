@@ -8,14 +8,13 @@ const Contact = () => {
                     <h3 className="font-bold text-2xl mb-2">Kontakt</h3>
                     <ul className="mb-8">
                         <li>Charley Nordahn</li>
-                        <li>61 65 56 64</li>
+                        <li><a href="tel:+4561655664" title="">61 65 56 64</a></li>
                         <li>mail@charleynordahn.dk</li>
                     </ul>
                     <h3 className="font-bold text-2xl mb-2">Reference</h3>
                     <ul className="mb-8">
                         <li>Lead Developer</li>
-                        <li>Per Bloch Andersen</li>
-                        <li>31 12 10 54</li>
+                        <li><a href="tel:+4531121054" title="">31 12 10 54</a></li>
                         <li>mail@perrep.dk</li>
                     </ul>
                     <FollowMe />

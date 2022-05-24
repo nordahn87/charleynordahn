@@ -14,13 +14,15 @@ const About = () => {
                             Webudvikler med flair for design
                         </h1>
                         <div className="grid sm:grid-cols-4 gap-6">
-                            <div className="grid place-content-center md:place-content-start">
-                                <img src="/assets/profile.png" alt="Profil billede" className="profile-img" />
+                            <div className="grid place-content-center md:place-content-start" >
+                                <div className="bg-blue w-[170px] h-[170px] overflow-hidden rounded-full relative">
+                                    <img src="/assets/profile.png" alt="Profil billede" className="left-[10px] top-[5px] absolute" />
+                                </div>
                             </div>
-                            <p className="font-regular text-base grid sm:col-span-3 content-center">
-                                Ung mand på 35 år med begge ben forankret i den jyske muld, derudover er jeg en kvalitetsbevidst webudvikler med flair
-                                for design og stor faglig stolthed.Da udvikling indenfor teknologi går hurtigt, er jeg bevidst om hvor vigtigt det er
-                                at være åben over for ny læring.
+                            <p className="font-regular text-base grid sm:col-span-3 pl-4 content-center">
+                                Er døbt Charley Nordahn og har i 35 år haft begge ben forankret i den jyske muld.
+                                Derudover er jeg en kvalitetsbevidst webudvikler med flair for design og stor faglig stolthed.
+                                Da udvikling indenfor teknologi går hurtigt er jeg bevidst om hvor vigtigt det er at være åben over for ny læring.
                             </p>
                         </div>
                     </section>

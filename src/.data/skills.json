@@ -5,11 +5,10 @@
         "listItem": [
             "React",
             "Javascript",
+            "Typescript",
             "HTML & CSS",
             "Sass",
-            "Typescript",
             "Bootstrap",
-            "React-bootstrap",
             "Tailwind"
         ]
     },
@@ -17,6 +16,7 @@
         "id": 2,
         "icon": "lab la-adobe",
         "listItem": [
+            "Adobe Creative Cloud",
             "Photoshop",
             "Illustrator",
             "Indesign",
@@ -27,9 +27,9 @@
         "id": 3,
         "icon": "las la-terminal",
         "listItem": [
-            "Visual Studio Code",
-            "GitHub",
+            "VS Code",
             "GIT",
+            "GitHub",
             "Jira"
         ]
     }

@@ -5,7 +5,7 @@ import NavData from '../.data/navigation.json'
 
 const Navigation = () => {
     const [toggleMobileNavMenu, setToggleMobileNavMenu] = useState(false)
-    const [burger, setBurger] = useState(false)
+    const [burgerNav, setBurgerNav] = useState(false)
 
     const closeOpen = () => {
         setToggleMobileNavMenu(!toggleMobileNavMenu)
@@ -18,20 +18,20 @@ const Navigation = () => {
     }
 
     useEffect(() => {
-        const changeBurger = () => {
+        const changeBurgerNav = () => {
             if (window.scrollY >= 80) {
-                setBurger(true)
+                setBurgerNav(true)
             } else {
-                setBurger(false)
+                setBurgerNav(false)
             }
         }
-        window.addEventListener('scroll', changeBurger)
+        window.addEventListener('scroll', changeBurgerNav)
     });
 
     return (
         <nav className='fixed top-0 right-0 z-50'>
             <button
-                className={(burger ? 'bg-black' : '') + ' p-4 z-10 top-0 right-0 transition-all'}
+                className={(burgerNav ? 'bg-black' : '') + ' p-4 z-10 top-0 right-0 transition-all'}
                 onClick={closeOpen}>
                 <i className={(toggleMobileNavMenu ? 'la-times' : 'la-bars') + ' las text-4xl text-white'}></i>
             </button>
