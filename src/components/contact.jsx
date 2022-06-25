@@ -14,6 +14,7 @@ const Contact = () => {
                     <h3 className="font-bold text-2xl mb-2">Reference</h3>
                     <ul className="mb-8">
                         <li>Lead Developer</li>
+                        <li>Per Bloch Andersen</li>
                         <li><a href="tel:+4531121054" title="">31 12 10 54</a></li>
                         <li>mail@perrep.dk</li>
                     </ul>
