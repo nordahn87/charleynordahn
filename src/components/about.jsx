@@ -20,9 +20,10 @@ const About = () => {
                                 </div>
                             </div>
                             <p className="font-regular text-base grid sm:col-span-3 pl-4 content-center">
-                                Er døbt Charley Nordahn og har i 35 år haft begge ben forankret i den jyske muld.
-                                Derudover er jeg en kvalitetsbevidst webudvikler med flair for design og stor faglig stolthed.
-                                Da udvikling indenfor teknologi går hurtigt er jeg bevidst om hvor vigtigt det er at være åben over for ny læring.
+                                Er døbt Charley Nordahn og har i 35 år haft begge ben forankret i den jyske muld. 
+                                Jeg er en kvalitetsbevidst webudvikler med flair for design og stor faglig stolthed, 
+                                som er drevet af at udvikle brugervenlige digitale løsninger. Jeg modtager feedback med tålmodighed 
+                                og åbent sind, og vigtigst af alt motiveret af succesoplevelser.
                             </p>
                         </div>
                     </section>

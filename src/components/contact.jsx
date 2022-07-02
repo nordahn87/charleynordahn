@@ -9,14 +9,14 @@ const Contact = () => {
                     <ul className="mb-8">
                         <li>Charley Nordahn</li>
                         <li><a href="tel:+4561655664" title="">61 65 56 64</a></li>
-                        <li>mail@charleynordahn.dk</li>
+                        <li><a href="mailto: mail@charleynordahn.dk" class="text-blue hover:text-[black] transition-all">mail@charleynordahn.dk</a></li>
                     </ul>
                     <h3 className="font-bold text-2xl mb-2">Reference</h3>
                     <ul className="mb-8">
                         <li>Lead Developer</li>
                         <li>Per Bloch Andersen</li>
                         <li><a href="tel:+4531121054" title="">31 12 10 54</a></li>
-                        <li>mail@perrep.dk</li>
+                        <li><a href="mailto: mail@perrep.dk" class="text-blue hover:text-[black] transition-all">mail@perrep.dk</a></li> 
                     </ul>
                     <FollowMe />
                 </div>

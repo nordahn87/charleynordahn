@@ -19,8 +19,7 @@
             "Adobe Creative Cloud",
             "Photoshop",
             "Illustrator",
-            "Indesign",
-            "Animate"
+            "Indesign"
         ]
     },
     {
@@ -30,6 +29,7 @@
             "VS Code",
             "GIT",
             "GitHub",
+            "GitLab",
             "Jira"
         ]
     }
